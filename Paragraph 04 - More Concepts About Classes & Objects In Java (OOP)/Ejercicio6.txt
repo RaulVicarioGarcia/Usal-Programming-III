@@ -1,0 +1,27 @@
+Item[] misObjetos = new Item[7];
+
+¿Qué valores tendrá la variable misObjetos? ¿Qué valor tiene la propiedad length de misObjetos?
+
+- Null, 7.
+
+final int AMOUNT_OF_PEOPLE = 4;
+
+¿Es posible modicar la variable AMOUNT_OF_PEOPLE después de su inicialización? ¿Por qué?
+
+- Por la palabra reservada final no se puede.
+
+System.out.println("Hello World");
+
+¿Por qué es posible acceder al atributo out de la clase System sin crear un objeto de la clase System con new? Usa F12 sobre el atributo out para inspeccionar el IDE y ver qué ocurre.
+
+- Porque es public static final PrintStream out.
+
+¿Cuál es la diferencia entre emplear import o import static? Pon un ejemplo de cuando utilizar cada uno con Biblioteca.jar
+
+- * import: Importa clases o interfaces completas de un paquete.
+  * import static: Permite importar miembros estáticos específicos de una clase, facilitando su uso sin el prefijo de la clase.
+
+¿Qué signica el error “Cannot use this in a static context” que se produce en el siguiente código? ¿Por qué se produce? ¿Cómo arreglarías el error?
+
+- La palabra clave this hace referencia a la instancia actual del objeto. En un contexto estático, no existe ninguna instancia asociada, por lo que no se puede usar this.
+El método calculateIMC es estático y, por lo tanto, no está asociado a ningún objeto específico. Pero el código intenta acceder a los campos heightCm y weightKg, que son atributos de instancia. Para solucionar este error, el método no debería ser estático o los atributos deben ser pasados como parámetros.

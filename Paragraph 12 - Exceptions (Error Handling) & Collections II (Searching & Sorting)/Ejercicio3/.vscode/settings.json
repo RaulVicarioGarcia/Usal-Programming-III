@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Vetas\\Desktop\\V\\CARRERA\\1º CUATRIMESTRE\\PROGRAMACIÓN III\\biblioteca11.jar",
+        "c:\\Users\\Vetas\\Desktop\\V\\CARRERA\\1º CUATRIMESTRE\\PROGRAMACIÓN III\\gson-2.10.1.jar"
+    ]
+}

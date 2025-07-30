@@ -1,0 +1,3 @@
+7. ¿Qué diferencia existe entre el constructor por defecto de una clase en Java y un constructor sin parámetros?
+
+- El constructor por defecto es generado automáticamente por Java si no defines ninguno, mientras que el constructor sin parámetros es creado explícitamente por el programador y puede incluir lógica personalizada.

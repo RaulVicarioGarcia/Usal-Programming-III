@@ -1,0 +1,15 @@
+1. ¿Cuál es la edad que se muestra?
+
+- La edad que se muestra es: 77.
+Esto se debe a que tanto paco como refPaco2 apuntan al mismo objeto en memoria. Al cambiar la edad a través de refPaco2, el cambio afecta al objeto al que también apunta paco.
+
+2. ¿Cuántos objetos hay en memoria?
+
+- Hay un único objeto de la clase Person en memoria.
+
+3. ¿Cuántas referencias hay?
+
+- Hay dos referencias:
+La referencia paco.
+La referencia refPaco2.
+Ambas apuntan al mismo objeto en memoria.

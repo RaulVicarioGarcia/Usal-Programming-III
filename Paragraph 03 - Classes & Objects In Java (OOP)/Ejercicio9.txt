@@ -1,0 +1,6 @@
+9. ¿Qué diferencia hay entre definir un atributo como public, private o no poner modicador de visibilidad? ¿En qué caso es posible acceder a ellos mediante el punto (.) con una referencia de un objeto?
+
+- La diferencia entre definir un atributo como public, private o sin modificador (también llamado default o paquete privado) en Java está relacionada con el nivel de acceso permitido al atributo desde otras clases. El acceso a un atributo mediante el operador punto (.) depende del modificador de visibilidad y del contexto desde el que se accede. El atributo tiene un nivel de visibilidad compatible con la clase desde la que se accede:
+* Private: Solo accesible dentro de la misma clase.
+* Sin modificador y protected: Accesible dentro del mismo paquete, protected también desde subclases de diferente paquete.
+* Public: Accesible desde cualquier parte.

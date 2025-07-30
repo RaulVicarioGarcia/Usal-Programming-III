@@ -1,0 +1,3 @@
+4. ¿Qué se ejecuta antes la declaración del atributo o el constructor?
+
+- En Java, se ejecuta primero la declaración del atributo y luego el constructor.

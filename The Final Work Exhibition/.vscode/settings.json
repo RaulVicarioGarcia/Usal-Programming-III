@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jTasks/lib/biblioteca20.jar",
+        "jTasks/lib/gson-2.10.1.jar",
+        "jTasks/lib/jadapter-for-native-tts-0.12.0.jar",
+        "jTasks/lib/notion-sdk-jvm-core-1.11.1.jar"
+    ]
+}

@@ -1,0 +1,1 @@
+Básicamente que con los strings hay que declarar antes un nextline para limpiar el buffer de teclado (linea en blanco).

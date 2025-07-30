@@ -1,0 +1,3 @@
+10. ¿Para qué se utiliza la keyword this? ¿Y la keyword new?
+
+- This, se usa para referirse al objeto actual. New, crea una nueva instancia de un objeto o arreglo.

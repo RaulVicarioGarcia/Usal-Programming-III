@@ -1,0 +1,70 @@
+1. ¿Qué es la JVM?
+
+- La JVM o Java Virtual Machine, es una máquina virtual cuyo objetivo es ejecutar programas que se compilan en Bytecode de Java. Se invoca
+mediante el comando java.
+
+2. ¿Qué es la JDK? ¿Qué componentes la forman?
+
+- La JDK o Java Development Kit, es el paquete completo que incluye el JRE, herramientas de desarrollo y bibliotecas adicionales para
+crear aplicaciones en Java, es la base en cualquier entorno Java.
+
+- La componen la JVM, la JRE, el compilador de java (javac), las bibliotecas estándar (API de Java) y herramientas de desarrollo como
+jar o javadoc.
+
+3. ¿Cuál es la diferencia entre JDK y JRE?
+
+- La JDK contiene la JRE como un subconjunto, por lo que es necesaria para programadores, mientras que la JRE es para usuarios finales
+que solo necesitan ejecutar aplicaciones.
+
+4. ¿Qué es una variable de entorno? ¿Cómo se cambia su valor en tu OS desde la terminal?
+
+- Una variable de entorno es un par clave-valor que el sistema operativo utiliza para almacenar información que afecta el comportamiento
+de procesos y aplicaciones en ejecución. Estas variables contienen datos como rutas a directorios, configuraciones de usuario, o valores
+específicos para aplicaciones.
+
+Ejemplos comunes de variables de entorno:
+
+PATH: Lista de directorios donde el sistema busca ejecutables.
+JAVA_HOME: Ruta donde está instalada la JDK.
+HOME: Directorio personal del usuario.
+
+- Hacer el cambio permanente:
+
+Abre la configuración de variables de entorno desde el Panel de Control o ejecuta SystemPropertiesAdvanced.
+En la sección "Variables de entorno", edita o crea la variable deseada.
+
+5. ¿Qué propósito tiene la variable de entorno PATH? ¿Qué valor tiene en tu equipo (rutas)? ¿Qué separador se usa en tu OS?
+
+- La variable de entorno PATH define una lista de directorios en los que el sistema operativo busca los ejecutables cuando se ejecuta
+un comando en la terminal o línea de comandos. Esto permite ejecutar programas sin necesidad de proporcionar la ruta completa a su archivo
+ejecutable.
+
+Por ejemplo, al escribir java en la terminal, el sistema busca el ejecutable java en los directorios listados en la variable PATH.
+
+- Enseña la direccion donde se aloja JDK.
+
+- Se separan con ; en Windows, en Linux con : y en MacOS también.
+
+6. ¿Qué ruta se debe incluir en el PATH cuando se instala la JDK?
+
+- Cuando se instala la JDK (Java Development Kit), debes incluir en la variable PATH la ruta al directorio bin dentro de la carpeta
+donde se instaló la JDK. Este directorio contiene los ejecutables necesarios para trabajar con Java, como java y javac.
+
+7. ¿Qué es la variable JAVA_HOME y cuál es su propósito? ¿Cuál es su valor en tu sistema?
+
+- La variable JAVA_HOME es una variable de entorno que apunta al directorio donde está instalada la Java Development Kit (JDK).
+Su propósito es proporcionar una forma estándar para que herramientas y aplicaciones (como servidores, IDEs, y scripts) localicen 
+la instalación de Java en el sistema.
+
+- Sale C:\Program Files\Java\jdk-17
+
+8. ¿Qué es la variable de entorno CLASSPATH y cuál es su propósito?
+
+- La variable de entorno CLASSPATH es un parámetro que utiliza la Java Virtual Machine (JVM) y otras herramientas de desarrollo en
+Java para indicar las rutas donde deben buscarse las clases y paquetes necesarios para ejecutar y compilar aplicaciones. Es una
+lista de directorios y archivos (generalmente JAR o ZIP) que contienen las definiciones de clases que no están en las bibliotecas
+estándar de Java.
+
+9. ¿Cómo se podría cambiar la JDK que utiliza un proyecto en VSCode?
+
+- Comprobar las JDK instaladas, configurar JAVA_HOME, abrir settings.json y añadir ruta. (Si es maven ajustar pom.xml)

@@ -1,0 +1,3 @@
+8. ¿Por qué utilizar getters y setters y no acceder directamente a los atributos a través del punto? ¿Es una cuestión de seguridad o de diseño?
+
+- El uso de getters y setters es principalmente una cuestión de diseño que mejora la flexibilidad, el control y la mantenibilidad del código, además es una cuestión de seguridad, al declarar un atributo privado, no podemos acceder directamente desde otras clases de no ser por los getters y setters, cosa que aumenta la seguridad.
